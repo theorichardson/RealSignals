@@ -8,13 +8,30 @@ body{
 	overscroll-behavior: none;
 }
 
-
-p{
-	font-family: SF Pro;
-	font-size: 10vh;
+h1{
+  margin: 0px;
+  font-family: SF Pro;
+  font-size: 3vw;
 }
 
 
+p{
+  padding: 0px;
+  margin: 0px;
+	font-family: SF Pro;
+	font-size: 2vw;
+}
+
+
+
+
+a{
+  font-family: SF Pro;
+  font-size: 2vw;
+}
+
+
+/*HOME*/
 
 .grid-container {
   display: grid;
@@ -22,16 +39,128 @@ p{
   grid-gap: .5vw;
   
 }
+
 .grid-item {
   /*border: 1px solid rgba(0, 0, 0, 0.8);*/
   text-align: center;
   margin: auto;
+  transition: transform .5s;
 }
 
 .grid-item img{
   width:30vw;
-
 }
+
+
+.grid-item:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+/*PAGES*/
+
+
+.images-grid{
+
+  /*border:1px solid blue;*/
+  display:flex;
+  column-gap: 4vw;
+  text-align: center;
+
+  width:90%;
+  text-align: left;
+  padding: 2vw;
+  margin:auto;
+  margin-top:5vw;
+}
+
+.images-grid img{
+  width:50vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container{
+  padding:5vw;
+  padding-top:3vw;
+  border:1px solid blue;
+}
+
+img{
+  float:left;
+  padding: 20px;
+  margin: 0px;
+}
+
+h2{
+}
+
+p{
+  
+  margin: 0px;
+}*/
+
+
+
+
+
+
+
+
+
+/*.bigImage {
+  display:inline-block;
+  border:1px solid red;
+  width:50vw;
+}
+.bigImage img{
+  width:100%;
+  object-fit: cover;
+}
+
+
+.heading{
+border:1px solid green;
+height: 10vh;
+float: right;
+}
+
+.para{
+  float: right;
+}
+
+
+
+
+
 
 
 

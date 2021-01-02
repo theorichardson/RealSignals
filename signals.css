@@ -1,0 +1,78 @@
+main{
+	overflow-x: 0;
+	padding:0px;
+	margin: 0px;
+}
+
+body{
+	overscroll-behavior: none;
+}
+
+
+p{
+	font-family: SF Pro;
+	font-size: 10vh;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: .5vw;
+  
+}
+.grid-item {
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  text-align: center;
+  margin: auto;
+}
+
+.grid-item img{
+  width:30vw;
+
+}
+
+
+
+
+
+/*.mainGrid{
+	display:grid;
+	text-align: center;
+	width:100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.mainGrid img{
+	width:20vw;
+}*/
+
+/*.projects{
+
+display:flex;
+grid-template-columns:1fr 1fr;
+background-color:red; 
+}
+
+.project {
+  padding: 0px;
+  margin-left:3.4vh;
+  margin-right:3.4vh;
+
+
+  transition: transform .5s;
+  border:1px solid blue;
+  padding:50px;
+}
+
+.project:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.project img {
+	max-height:45.7vh;
+}*/

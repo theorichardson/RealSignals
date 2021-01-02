@@ -85,6 +85,29 @@ a{
 
 
 
+/*FOR THE ANIME FACE FILTER PAGE ONLY*/
+
+
+.images-gridAFF{
+
+  /*border:1px solid blue;*/
+  display:flex;
+  column-gap: 4vw;
+  text-align: center;
+
+  width:90%;
+  text-align: left;
+  padding: 2vw;
+  margin:auto;
+  margin-top:5vw;
+}
+
+.images-gridAFF img{
+  width:65vh;
+}
+
+
+
 
 
 

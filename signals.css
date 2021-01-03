@@ -57,7 +57,13 @@ font-family: aktiv-grotesk, sans-serif;
 
 
 a{
-  font-family: Aktiv Grotesk;
+  padding: 0px;
+  margin: 0px;
+
+font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
   font-size: 2vw;
 }
 

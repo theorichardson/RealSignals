@@ -53,8 +53,6 @@ font-family: aktiv-grotesk, sans-serif;
   font-size: 1vw;
 }
 
-
-
 a{
   padding: 0px;
   margin: 0px;
@@ -144,7 +142,7 @@ font-family: aktiv-grotesk, sans-serif;
 
 .images-grid{
 
-  /*border:1px solid blue;*/
+
   display:flex;
   column-gap: 4vw;
   text-align: center;

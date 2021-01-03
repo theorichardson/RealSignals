@@ -142,9 +142,8 @@ font-family: aktiv-grotesk, sans-serif;
 
 .images-grid{
 
-
   display:flex;
-  column-gap: 4vw;
+  /*grid-gap: 4vw;*/
   text-align: center;
 
   width:90%;
@@ -156,6 +155,7 @@ font-family: aktiv-grotesk, sans-serif;
 
 .images-grid img{
   width:50vw;
+  padding-right:4vw;
 }
 
 

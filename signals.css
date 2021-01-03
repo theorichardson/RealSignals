@@ -70,12 +70,12 @@ font-family: aktiv-grotesk, sans-serif;
 /*TOPSIDE*/
 
 .topSide{
-  height:8vw;
-  /*padding:2vw;*/
-  padding: 10vw;
-  padding-bottom:20vw;    /*-----increase to 23vw when using lines-----*/
-  /*padding-top:4vw;*/
-  padding-top:5vw;
+  height:100%;
+                  /*padding:2vw;*/
+                  padding: 10vw;
+                  padding-bottom:6vw;
+                  /*padding-top:4vw;*/
+                  padding-top:4vw;
 }
 
 

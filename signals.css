@@ -6,38 +6,84 @@ main{
 
 body{
 	overscroll-behavior: none;
-  padding-bottom:8vh;
 }
 
 h1{
   margin: 0px;
-  font-family: SF Pro;
+
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+
   font-size: 3vw;
+}
+
+h2{
+  margin: 0px;
+
+
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+
+
+  font-size: 4vw;
 }
 
 
 p{
   padding: 0px;
   margin: 0px;
-	font-family: SF Pro;
+
+font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
 	font-size: 2vw;
+}
+
+h3{
+  padding: 0px;
+  margin: 0px;
+
+font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 1vw;
 }
 
 
 
 
 a{
-  font-family: SF Pro;
+  font-family: Aktiv Grotesk;
   font-size: 2vw;
 }
 
 
 /*HOME*/
 
+/*TOPSIDE*/
+
+.topSide{
+  height:35vh;
+  /*padding:2vw;*/
+  padding: 10vw;
+  /*padding-top:4vw;*/
+  padding-top:5vw;
+}
+
+
+/*HOME GRID*/
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: .5vw;
+  grid-gap: 1vw;
+  width:82vw;
+  padding:auto;
+  margin:auto;
   
 }
 
@@ -49,12 +95,36 @@ a{
 }
 
 .grid-item img{
-  width:30vw;
+  width:25vw;
 }
 
 
 .grid-item:hover {
   transform: scale(1.1);
+}
+
+
+/*FOOTER*/
+
+.footer{
+  display: flex;
+  width:98vw;
+  padding-top:9vh;
+  padding-bottom: 6vh;
+
+}
+
+.footer img{
+  text-align: center;
+  width:7vw;
+  height:100%;
+  padding-left:9vw;
+}
+
+.bottomText{
+  text-align: center;
+  padding-left: 2vw;
+  padding-top:3vh;
 }
 
 

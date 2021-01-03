@@ -6,6 +6,7 @@ main{
 
 body{
 	overscroll-behavior: none;
+  padding-bottom:8vh;
 }
 
 h1{

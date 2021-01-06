@@ -6,6 +6,7 @@ main{
 
 body{
 	overscroll-behavior: none;
+  background-color: black;
 }
 
 h1{
@@ -14,6 +15,7 @@ h1{
   font-family: aktiv-grotesk, sans-serif;
   font-style: normal;
   font-weight: 700;
+  color:white;
 
   font-size: 3vw;
 }
@@ -25,6 +27,7 @@ h2{
   font-family: aktiv-grotesk, sans-serif;
   font-style: normal;
   font-weight: 700;
+  color:white;
 
 
   font-size: 4vw;
@@ -37,7 +40,8 @@ p{
 
 font-family: aktiv-grotesk, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
+  color:white;
 
 	font-size: 2vw;
 }
@@ -49,6 +53,7 @@ h3{
 font-family: aktiv-grotesk, sans-serif;
   font-style: normal;
   font-weight: 400;
+  color:white;
 
   font-size: 1vw;
 }
@@ -60,6 +65,7 @@ a{
 font-family: aktiv-grotesk, sans-serif;
   font-style: normal;
   font-weight: 400;
+  color:white;
 
   font-size: 2vw;
 }

@@ -29,7 +29,7 @@ h2{
 
   font-family: aktiv-grotesk, sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   color:black;
 
 
@@ -41,10 +41,14 @@ p{
   padding: 0px;
   margin: 0px;
 
-font-family: aktiv-grotesk, sans-serif;
+/*font-family: aktiv-grotesk, sans-serif;
   font-style: normal;
   font-weight: 200;
-  color:black;
+  color:black;*/
+
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 500;
+font-style: normal;
 
 	font-size: 2vw;
 }

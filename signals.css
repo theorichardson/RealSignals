@@ -226,6 +226,22 @@ font-family: aktiv-grotesk, sans-serif;
 
 .images-gridAFF{
 
+  display:flex;
+  /*grid-gap: 4vw;*/
+  text-align: center;
+
+  width:90%;
+  text-align: left;
+  padding: 2vw;
+  margin:auto;
+  margin-top:5vw;
+}
+
+.images-gridAFF img{
+  width:40vw;
+  padding-right:4vw;
+}
+
   /*border:1px solid blue;*/
   display:flex;
   column-gap: 4vw;

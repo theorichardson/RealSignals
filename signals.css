@@ -226,10 +226,37 @@ font-family: aktiv-grotesk, sans-serif;
   padding-right:4vw;
 }
 
+.images-grid video{
+  width:50vw;
+  padding-right:4vw;
+}
+
+.description{
+  width:50vw;
+}
+
+
 .description img{
   width:3.3vw;
   padding-right:1vw;
 }
+
+
+
+
+/*.xestoVideo {
+  display: block;
+  padding:auto;
+  margin:auto;
+  width:40vh;
+  text-align: center;
+  -webkit-appearance:none;
+}
+
+.xestoVideo video{
+  height:90vh;
+}*/
+
 
 
 

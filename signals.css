@@ -460,6 +460,15 @@ h3{
   width:100vw;
 }
 
+.images-grid video{
+  display:flex;
+  flex-direction: column;
+  margin:0px;
+  padding-top:8vw;
+
+  width:100vw;
+}
+
 
 
 .bigPic {
@@ -475,6 +484,7 @@ h3{
 }
 
 .description {
+  width:80vw;
   padding:10vw;
   padding-top:8vw;
   margin:0px;

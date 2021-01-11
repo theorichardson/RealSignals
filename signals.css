@@ -224,6 +224,8 @@ font-family: aktiv-grotesk, sans-serif;
 .images-grid img{
   width:50vw;
   padding-right:4vw;
+  position: sticky;
+  top:7vw;
 }
 
 .images-grid video{
@@ -233,6 +235,8 @@ font-family: aktiv-grotesk, sans-serif;
 
 .description{
   width:50vw;
+  /*height:30vw;
+  overflow: scroll;*/
 }
 
 

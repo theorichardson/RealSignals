@@ -318,6 +318,7 @@ font-family: aktiv-grotesk, sans-serif;
                 body{
                     /*background-color: red;*/
                     margin:0px;
+                    padding:0px;
                 }
 
 
@@ -476,12 +477,18 @@ h3{
 
 
 .bigPic {
-  width:99vw;
+  width:100vw;
   text-align: center;
 
 }
 
 .bigPic img{
+  width:100vw;
+  padding:0px;
+  padding-top:8vw;
+}
+
+.bigPic video{
   width:100vw;
   padding:0px;
   padding-top:8vw;

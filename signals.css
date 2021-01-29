@@ -386,13 +386,13 @@ h3{
                 a{
                   padding: 0px;
                   padding-top:.5vw;
-                  margin: 0px;
+                  margin: 1vw;
 
                   font-family: aktiv-grotesk, sans-serif;
                   font-style: normal;
                   font-weight: 400;
 
-                  font-size: 5vw;
+                  font-size: 4vw;
                 }
 
                 .topSide{
